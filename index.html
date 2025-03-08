@@ -1,0 +1,232 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benny Designs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Benny Designs</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre" class="section">
+        <h2>Sobre Mim</h2>
+        <p>Sou Benja, um designer apaixonado por criar experiências visuais incríveis e únicas. Desde muito jovem, sempre me fascinei pelo mundo do design e pela maneira como ele pode transformar ideias e conceitos em algo real. Acredito que cada projeto é uma oportunidade de contar uma história e conectar as pessoas de forma criativa. Em busca de novos desafios, estou sempre aprendendo mais sobre design e programação, e meu objetivo é expandir meus negócios para atingir clientes internacionais. A cada dia, me esforço para aprimorar minhas habilidades e explorar novas formas de expressar minha criatividade.</p>
+    </section>
+
+    <section class="section portfolio">
+        <h2>Meus Trabalhos</h2>
+        
+        <div class="portfolio-item">
+            <div class="portfolio-box">
+                <h3>Projeto 1</h3>
+                <p>Design inovador para um novo conceito de produto.</p>
+            </div>
+        </div>
+        
+        <div class="portfolio-item">
+            <div class="portfolio-box">
+                <h3>Projeto 2</h3>
+                <p>Desenvolvimento de um site para comércio</p>
+            </div>
+        </div>
+        
+        <div class="portfolio-item">
+            <div class="portfolio-box">
+                <h3>Projeto 3</h3>
+                <p>Fotografia artística para uma marca de roupas.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:contato@seudominio.com">benjagutierres09@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/bennydesignsz" target="_blank">@Benny Designs</a></p>
+        <p>Facebook: <a href="https://www.linkedin.com/in/seuperfil" target="_blank">Meu Perfil no Facebook</a></p>
+        <p>Whatsapp: <a href="https://wa.me/16996463182" target="_blank">Meu Whatsapp</a></p>
+        <p>TikTok: <a href="https://www.tiktok.com/@bennydesigns" target="_blank">Meu Perfil no TikTok</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Benja Gutierres - Todos os direitos reservados.</p>
+    </footer>
+
+
+
+<style class="css">/* Resetando margens e padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #2c2c2c; /* Preto */
+        color: #fff; /* Texto branco */
+        line-height: 1.6;
+    }
+    
+    header {
+        background: #5a2d9e; /* Roxo */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    nav ul li a:hover {
+        color: #f4f4f4;
+        text-decoration: underline;
+    }
+    
+    .section {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    
+    .portfolio {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .portfolio-item {
+        background-color: #333; /* Cor de fundo das imagens */
+        padding: 10px;
+        border-radius: 10px;
+        width: 250px;
+    }
+    
+    .portfolio-item img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .portfolio-item p {
+        margin-top: 10px;
+    }
+    
+    footer {
+        background: #5a2d9e; /* Roxo */
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        color: #f4f4f4;
+    }
+    </style>
+
+
+/* Estilo geral */
+<style class="css">/* Estilo geral */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #1e1e1e;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #9b59b6;
+    }
+    
+    /* Estilo da seção de portfólio */
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 50px 20px;
+    }
+    
+    /* Estilo dos itens do portfólio */
+    .portfolio-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    
+    .portfolio-item:hover {
+        transform: scale(1.05);
+    }
+    
+    /* Estilo das caixas de conteúdo */
+    .portfolio-box {
+        background-color: #2c3e50;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .portfolio-item:hover .portfolio-box {
+        background-color: #8e44ad;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Estilo do título */
+    .portfolio-box h3 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        color: #f39c12;
+        transition: color 0.3s ease;
+    }
+    
+    /* Estilo da descrição */
+    .portfolio-box p {
+        font-size: 1.1em;
+        color: #bdc3c7;
+        transition: color 0.3s ease;
+    }
+    
+    /* Efeito de foco nas caixas */
+    .portfolio-item:hover .portfolio-box h3,
+    .portfolio-item:hover .portfolio-box p {
+        color: white;
+    }
+    </style>
+
+</body></html>
